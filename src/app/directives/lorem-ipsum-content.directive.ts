@@ -3,7 +3,8 @@ import * as loremIpsum from 'lorem-ipsum';
 
 
 @Directive({
-  selector: '[gedLoremIpsumContent]'
+  selector: '[gedLoremIpsumContent]',
+  exportAs: 'loremIpsumContent'
 })
 export class LoremIpsumContentDirective implements OnChanges {
 
