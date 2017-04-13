@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { LoremIpsumContentDirective } from './directives/lorem-ipsum-content.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoremIpsumContentDirective
   ],
   imports: [
     BrowserModule,
